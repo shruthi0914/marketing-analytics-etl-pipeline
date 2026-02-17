@@ -184,13 +184,15 @@ docker compose up
 http://localhost:8080
 
 ### Login credentials:
-Username: admin
-Password: admin
+
+-Username: admin
+-Password: admin
 
 ### Trigger the DAG
 Run: marketing_analytics_pipeline
 
 ### Real-World Issues Solved During Development
+
 This project involved solving real production-style issues:
 Docker networking differences (localhost vs host.docker.internal)
 Airflow secret key configuration for log access
@@ -203,6 +205,7 @@ View ownership conflicts when refreshing semantic layer
 These reflect real enterprise data engineering environments.
 
 ### Example Business Insights Enabled
+
 -Using KPI views, stakeholders can:
 -Identify underperforming campaigns (ROAS threshold logic)
 -Compare channel-level efficiency
@@ -211,11 +214,13 @@ These reflect real enterprise data engineering environments.
 -Generate executive summary metrics
 
 ### Example Business Insights Enabled
+
 -Using KPI views, stakeholders can:
 -Identify underperforming campaigns (ROAS threshold logic)
 -Compare channel-level efficiency
 -Track monthly performance trends
 -Evaluate company-level revenue contribution
 -Generate executive summary metrics
+
 
 
